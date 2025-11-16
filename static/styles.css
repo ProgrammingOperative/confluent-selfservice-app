@@ -1,0 +1,83 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f5f8f6;
+    color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background: #fff;
+    padding: 2rem 3rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    max-width: 450px;
+    width: 90%;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #1b5e20;
+  }
+  
+  p {
+    text-align: center;
+    color: #4b4b4b;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-top: 10px;
+    font-weight: 600;
+  }
+  
+  input, textarea {
+    margin-top: 6px;
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #2e7d32;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #1b5e20;
+  }
+  
+  .alert {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  .alert.success {
+    background-color: #e8f5e9;
+    color: #2e7d32;
+    border: 1px solid #c8e6c9;
+  }
+  
+  .alert.danger {
+    background-color: #ffebee;
+    color: #c62828;
+    border: 1px solid #ffcdd2;
+  }
+  
